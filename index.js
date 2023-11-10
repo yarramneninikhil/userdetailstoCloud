@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   };
   axios
     .post(
-      "https://crudcrud.com/api/529ebb78f5bc42ab82a7121e7aa7ac03/usersData",
+      "https://crudcrud.com/api/28d3297582ba4ea8a142fc9f65829d0e/usersData",
       obj
     )
     .then((res) => console.log(res))
@@ -39,7 +39,7 @@ function createDetails(x, y, z) {
 
 window.addEventListener("load", () => {
   axios
-    .get("https://crudcrud.com/api/529ebb78f5bc42ab82a7121e7aa7ac03/usersData")
+    .get("https://crudcrud.com/api/28d3297582ba4ea8a142fc9f65829d0e/usersData")
     .then((res) => {
       const data = res.data;
       data.forEach((val) => {
